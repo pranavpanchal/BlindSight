@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		077BB3D27CA67A97DDA2ADD4 /* Pods_BlindSight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 515CA3816AFA698C7598EB86 /* Pods_BlindSight.framework */; };
-		350162FE227EA8D20029C2EE /* VolunteerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350162FD227EA8D20029C2EE /* VolunteerViewController.swift */; };
 		3575880C227EB59B0062167B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3575880A227EB59A0062167B /* ViewController.swift */; };
 		3575880D227EB59B0062167B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3575880B227EB59A0062167B /* Utils.swift */; };
 		35758821227EF7AA0062167B /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35758820227EF7AA0062167B /* CustomMarkerView.swift */; };
@@ -34,6 +33,7 @@
 		35EE17B0227E0021007F9741 /* BlindSightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EE17AF227E0021007F9741 /* BlindSightUITests.swift */; };
 		8196E742227E335C00B717FD /* VolunteerSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8196E741227E335C00B717FD /* VolunteerSignInViewController.swift */; };
 		8196E744227E43A000B717FD /* VolunteerSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8196E743227E43A000B717FD /* VolunteerSignUpViewController.swift */; };
+		81BE0BD7228239AA00FCFC9B /* VolunteerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BE0BD6228239AA00FCFC9B /* VolunteerViewController.swift */; };
 		A0D13F84ACBE73C6ACA9455E /* Pods_BlindSightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A24C7274D8E7166ABADE164 /* Pods_BlindSightTests.framework */; };
 		D05681A5C2E3F9010BFBDE4F /* Pods_BlindSightUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81167DF54FF23DC7A484057 /* Pods_BlindSightUITests.framework */; };
 /* End PBXBuildFile section */
@@ -58,7 +58,6 @@
 /* Begin PBXFileReference section */
 		072D1E7806F8DA1BC09F74D1 /* Pods-BlindSightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindSightUITests.release.xcconfig"; path = "Target Support Files/Pods-BlindSightUITests/Pods-BlindSightUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2E5F0033E20BD760859FEC96 /* Pods-BlindSightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindSightTests.debug.xcconfig"; path = "Target Support Files/Pods-BlindSightTests/Pods-BlindSightTests.debug.xcconfig"; sourceTree = "<group>"; };
-		350162FD227EA8D20029C2EE /* VolunteerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VolunteerViewController.swift; path = ../VolunteerViewController.swift; sourceTree = "<group>"; };
 		3575880A227EB59A0062167B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3575880B227EB59A0062167B /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		35758820227EF7AA0062167B /* CustomMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarkerView.swift; sourceTree = "<group>"; };
@@ -84,6 +83,7 @@
 		515CA3816AFA698C7598EB86 /* Pods_BlindSight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlindSight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8196E741227E335C00B717FD /* VolunteerSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerSignInViewController.swift; sourceTree = "<group>"; };
 		8196E743227E43A000B717FD /* VolunteerSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerSignUpViewController.swift; sourceTree = "<group>"; };
+		81BE0BD6228239AA00FCFC9B /* VolunteerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VolunteerViewController.swift; path = "../../../../Downloads/BlindSight 2/BlindSight/VolunteerViewController.swift"; sourceTree = "<group>"; };
 		8789AC554072558FE06B7E21 /* Pods-BlindSight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindSight.release.xcconfig"; path = "Target Support Files/Pods-BlindSight/Pods-BlindSight.release.xcconfig"; sourceTree = "<group>"; };
 		8A24C7274D8E7166ABADE164 /* Pods_BlindSightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlindSightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC7281FC6AF1000B60FF291 /* Pods-BlindSight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlindSight.debug.xcconfig"; path = "Target Support Files/Pods-BlindSight/Pods-BlindSight.debug.xcconfig"; sourceTree = "<group>"; };
@@ -152,8 +152,8 @@
 				3575880B227EB59A0062167B /* Utils.swift */,
 				3575880A227EB59A0062167B /* ViewController.swift */,
 				8196E743227E43A000B717FD /* VolunteerSignUpViewController.swift */,
+				81BE0BD6228239AA00FCFC9B /* VolunteerViewController.swift */,
 				35758820227EF7AA0062167B /* CustomMarkerView.swift */,
-				350162FD227EA8D20029C2EE /* VolunteerViewController.swift */,
 				35BD9C13227E6599005777BE /* PreviewView.swift */,
 				35BD9C0F227E6509005777BE /* ObjectRecoginitionViewController.swift */,
 				35EE1793227E001F007F9741 /* Main.storyboard */,
@@ -477,12 +477,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81BE0BD7228239AA00FCFC9B /* VolunteerViewController.swift in Sources */,
 				35BD9C10227E6509005777BE /* ObjectRecoginitionViewController.swift in Sources */,
 				8196E742227E335C00B717FD /* VolunteerSignInViewController.swift in Sources */,
 				35EE1792227E001F007F9741 /* HomeViewController.swift in Sources */,
 				3575880C227EB59B0062167B /* ViewController.swift in Sources */,
 				35758821227EF7AA0062167B /* CustomMarkerView.swift in Sources */,
-				350162FE227EA8D20029C2EE /* VolunteerViewController.swift in Sources */,
 				3575880D227EB59B0062167B /* Utils.swift in Sources */,
 				35EE1790227E001F007F9741 /* AppDelegate.swift in Sources */,
 				8196E744227E43A000B717FD /* VolunteerSignUpViewController.swift in Sources */,
