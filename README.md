@@ -1,5 +1,7 @@
 # BlindSight
 
+![image](http://u.cubeupload.com/coding_ninja24/mergefromofoct.jpg)
+
 ## Inspiration
 
 There are a lot of things we do in our lives that rely on our eyes, especially as programmers.
